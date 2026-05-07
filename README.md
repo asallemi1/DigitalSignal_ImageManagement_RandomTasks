@@ -93,7 +93,7 @@ Gaussian filtering with different sigma values is tested to analyze:
 
 ---
 
-# Exercise 04 — Feature Matching and Homography
+## Exercise 04 — Feature Matching and Homography
 
 This exercise focuses on geometric computer vision techniques.
 
@@ -107,11 +107,11 @@ Main topics:
 
 ---
 
-## Keypoint Extraction
+### Keypoint Extraction
 
 Features are extracted using:
 
-### SIFT (Scale-Invariant Feature Transform)
+#### SIFT (Scale-Invariant Feature Transform)
 
 SIFT detects:
 
@@ -127,11 +127,11 @@ while remaining robust to:
 
 ---
 
-## Feature Matching
+### Feature Matching
 
 Descriptors between two images are matched using:
 
-### Brute Force Matcher (BFMatcher)
+#### Brute Force Matcher (BFMatcher)
 
 Matches are ranked according to descriptor distance.
 
@@ -144,7 +144,7 @@ to evaluate correspondence quality.
 
 ---
 
-## Homography Estimation
+### Homography Estimation
 
 A homography matrix is computed to estimate the geometric transformation between two images.
 
@@ -159,7 +159,7 @@ This enables alignment between multiple views of the same scene.
 
 ---
 
-## Perspective Warping
+### Perspective Warping
 
 Using the computed homography:
 
@@ -174,15 +174,15 @@ This represents the foundation of:
 
 ---
 
-# Libraries and Tools
+## Libraries and Tools
 
-## Exercise 03
+### Exercise 03
 
 * NumPy
 * Matplotlib
 * scikit-image
 
-## Exercise 04
+### Exercise 04
 
 * OpenCV
 * NumPy

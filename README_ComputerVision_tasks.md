@@ -1,7 +1,3 @@
-# DigitalSignal_ImageManagement_RandomTasks
-
-
-
 # Image Management and Computer Vision Tasks
 
 A collection of image processing and computer vision exercises focused on color management, image compression, feature extraction, homography estimation, and image stitching.
